@@ -1,0 +1,4 @@
+$(document).ready(function(){
+	$('#nom_candidat').autocomplete('./traitement.php');
+	$('#nom_JF').autocomplete('./traitement2.php');
+	});
