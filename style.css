@@ -1,0 +1,102 @@
+/*Commun*/
+body{
+	background-image:linear-gradient(#0090FF, #FFFFFF);
+	color: #000000;
+	}
+/*indexRecherche.php*/
+.intitule{
+	text-align: center;
+	margin-bottom: 15px;
+	font-size: x-large;
+	font-weight: bolder;
+	}
+.tableau{
+	background: url("dates.jpg") fixed;
+	color: #000000;
+	border: 6px #000000 double;
+	margin-right: 20px;
+	text-align: center;
+	border-collapse: collapse;
+	float: left;
+	}
+.encadre{
+	border: 1px solid #000000;
+	margin: 0px;
+	padding: 0px;
+	}
+.recapitulatif{
+	background: url("recapitulatif.jpg");
+	border: 3px double #000000;
+	margin-top: 5px;
+	}
+.bouton{
+	margin-top: 100px;
+	margin-bottom: 0px;
+	padding: 0px;
+	}
+.a{
+	margin-bottom: 1px;
+	}
+.b{
+	margin-top: 1px;
+	}
+.titre{
+	margin-top: 0px;
+	text-align: center;
+	}
+.rouge{
+	color: #F5DEB3;
+	}
+p{
+	margin: 0px;
+	padding: 0px;
+	}
+/*jury.php*/
+.unites1{
+	color: #008000;
+	}
+.unites2{
+	color: #FF0000;
+	}
+/*fiche_candidat.php*/
+caption{
+	font-family: "Times New Roman",Georgia,Serif;
+	font-size: 125%;
+	font-weight:bold;
+	}
+.general{
+	width: 100%;
+	background: url("general.jpg") fixed;
+	color: #000000;
+	border: 9px #000000 double;
+	text-align: center;
+	border-collapse: collapse;
+	}
+.etapes{
+	width: 100%;
+	background: url("etapes.jpg") fixed;
+	color: #000000;
+	border: 9px #000000 double;
+	text-align: center;
+	border-collapse: collapse;
+	}
+.case{
+	border: 1px solid #000000;
+	margin: 5px;
+	padding: 5px;
+	}
+.lien{
+	color: #9400D3;
+	text-decoration:underline;
+	}
+/*fiche_candidat.php + suggestions.php*/
+a {/* Liens qui ne sont pas sous le curseur*/
+	color: #000000;
+	text-decoration:none;
+	}
+a:nth-child(odd){background: #7FFFD4;}
+a:nth-child(even){background: #48D1CC;}
+a:hover {/* Liens lorsque le curseur est dessus*/
+	color: #DC143C;
+	text-decoration:underline;
+	}
