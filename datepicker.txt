@@ -1,0 +1,11 @@
+$(document).ready(function(){
+	$.datepicker.setDefaults($.datepicker.regional['fr']);
+	$("#date_reunion_info").datepicker({dateFormat:'dd-mm-yy'}).val();
+	$("#DateDemande_accompagnement").datepicker({dateFormat:'dd-mm-yy'}).val();
+	$("#livret2_rendu_le").datepicker({dateFormat:'dd-mm-yy'}).val();
+	$("#date_jury").datepicker({dateFormat:'dd-mm-yy'}).val();
+	$("#date_reunion_info2").datepicker({dateFormat:'dd-mm-yy'}).val();
+	$("#DateDemande_accompagnement2").datepicker({dateFormat:'dd-mm-yy'}).val();
+	$("#livret2_rendu_le2").datepicker({dateFormat:'dd-mm-yy'}).val();
+	$("#date_jury2").datepicker({dateFormat:'dd-mm-yy'}).val();
+	});
